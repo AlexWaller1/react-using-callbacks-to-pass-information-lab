@@ -14,6 +14,9 @@ export default class Cell extends Component {
       color: this.props.selectorColor
     })
   }
+  // you will commonly see React component methods defined with arrow functions.
+  // This is because we often want to access the 'this' keyword within the methods
+  // themselves
   
   render() {
     return (
